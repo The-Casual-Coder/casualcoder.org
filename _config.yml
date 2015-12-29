@@ -54,7 +54,7 @@ tag_map:
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-
+language: en
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
@@ -71,5 +71,5 @@ deploy:
   type: rsync
   host: casualcoder.org
   user: hexo
-  root: /var/www/casualcoder.org
+  root: /var/www/casualcoder.org/public
   port: 22 
