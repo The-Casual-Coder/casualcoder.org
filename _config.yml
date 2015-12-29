@@ -68,4 +68,8 @@ theme: next
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: casualcoder.org
+  user: hexo
+  root: /var/www/casualcoder.org
+  port: 22 
