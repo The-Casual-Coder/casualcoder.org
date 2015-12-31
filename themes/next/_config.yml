@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Javascript, Elixir, HTML5, CSS, functional programming, casual coder"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: Dec 2015
 
 
 
@@ -47,7 +47,7 @@ menu_icons:
   categories: th
   tags: tags
   archives: archive
-  commonweal: heartbeat
+  #commonweal: heartbeat
 
 
 
@@ -78,8 +78,9 @@ sidebar: post
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/The-Casual-Coder
+  Twitter: https://twitter.com/CasualCoderBlog
   #Others:
 
 # Social Icons
@@ -112,7 +113,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
 
 
@@ -136,7 +137,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -156,7 +157,7 @@ use_font_lato: true
 # ---------------------------------------------------------------
 
 # MathJax Support
-mathjax:
+#mathjax:
 
 
 # Swiftype Search API Key
@@ -169,7 +170,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: thecasualcoder
 
 # Share
 #jiathis:
@@ -189,10 +190,10 @@ mathjax:
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
+#duoshuo_info:
+  #ua_enable: true
+  #admin_enable: false
+  #user_id: 0
   #admin_nickname: ROOT
 
 
