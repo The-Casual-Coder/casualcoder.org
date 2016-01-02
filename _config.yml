@@ -70,6 +70,6 @@ theme: next
 deploy:
   type: rsync
   host: casualcoder.org
-  user: hexo
+  user: debian
   root: /var/www/casualcoder.org/public
   port: 22 
